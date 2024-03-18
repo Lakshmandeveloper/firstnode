@@ -19,7 +19,7 @@ app.use(bodyparser.json());
 
 
 app.get('/',(req,res) => {
-  res.send(<center><h2>Hii Guys.. This is Lakshman Reddy</h2></center>)
+  res.send("Hii Guys.. This is Lakshman Reddy")
 })
 
 // we use this to get the restaurant data
